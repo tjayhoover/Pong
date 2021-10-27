@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Midterm Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>PONG</h1>
+
+    <!-- This div holds the game canvas -->
+    <div id="game">
+        <canvas id="pong" width="800" height="400"></canvas>
+    </div>
+
+    <!-- This div holds the control buttons -->
+    <div id="buttons">
+        <input class="button" type="button" onclick="resetBall()" value="Start/Restart">
+        <input class="button" type="button" onclick="pause()" value="Pause">
+        <input class="button" type="button" onclick="play()" value="Resume">
+        <input class="button" type="button" onclick="refreshPage()" value="Reset">
+    </div>
+
+    <!-- This div holds the scoreboard and the difficulty selection buttons -->
+    <div id="score_board">
+        <canvas id="scores" width="380" height="100"></canvas>
+        <div>
+            <input class="diff_button" id="easy_button" type="button" onclick="easy()" value="Easy">
+        </div>
+        <div>
+            <input class="diff_button" id="normal_button" type="button" onclick="normal()" value="Normal">
+        </div>
+        <div>
+            <input class="diff_button bottom_button" id="hard_button" type="button" onclick="hard()" value="Hard">
+        </div>
+    </div>
+
+    <!-- Here I import the Javascript file. This line needs to be after the canvases are created -->
+    <script src="scripts.js"></script>
+
+    <footer>
+        <p id="footer_text">Tyler Hoover | 2021</p>
+    </footer>
+
+</body>
+</html>
