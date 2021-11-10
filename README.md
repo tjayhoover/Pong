@@ -1,4 +1,4 @@
-# pong
+# Pong
 A modified version of Pong.
 
 I would like to credit this YouTube video: https://www.youtube.com/watch?v=nl0KXCa5pJk
