@@ -56,7 +56,7 @@ const user = {
     y: canvas.height / 2 - 100 / 2,
     width: 10,
     height: 100,
-    color: "RED",
+    color: "white",
     score: 0,
     high_score: 0,
     difficulty: "Normal"
