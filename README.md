@@ -1,6 +1,8 @@
 # Pong
 A modified version of Pong.
 
+You can view the site here: https://tjayhoover.github.io/Pong/
+
 I would like to credit this YouTube video: https://www.youtube.com/watch?v=nl0KXCa5pJk
 I got the main game functions from the video; however I ended up modifying most of the functions and adding features.
 The video really helped me to understand how powerful functions are in Javascript.
